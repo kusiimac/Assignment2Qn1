@@ -8,7 +8,7 @@ fun main() {
     val b = 10
     val c = 25
     val x: String
-    val y = (((b * b) - (4 * a * c)).toDouble())
+    val y = ((b * b) - (4 * a * c)).toDouble()
     val root1 = (-b + sqrt(y)) / (2 * a)
     val root2 = (-b - sqrt(y)) / (2 * a)
     if (y == 0.0) {
