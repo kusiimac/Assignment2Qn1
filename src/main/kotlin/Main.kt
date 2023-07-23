@@ -4,6 +4,7 @@ import kotlin.math.sqrt
  * x = (-b+-sqrt(b^2-4ac))/2a
  */
 fun main() {
+    //This program will calculate the roots of the above quadratic equation
     val a = 1
     val b = 10
     val c = 25
@@ -19,5 +20,5 @@ fun main() {
         //x = root1 and root2
         x = "x = %.2f,  x = %.2f".format(root1, root2)
     }
-        print (x)
+        print ("The roots of the equation are: $x")
     }
