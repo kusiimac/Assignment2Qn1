@@ -14,11 +14,11 @@ fun main() {
     val root2 = (-b - sqrt(y)) / (2 * a)
     if (y == 0.0) {
         //x = root1 = root2
-        x = "x = %.2f and x = %.2f".format(root1, root2)
+        x = "x = ${root1.toInt()} and x = ${root2.toInt()}"
     }
     else {
         //x = root1 and root2
-        x = "x = %.2f and x = %.2f".format(root1, root2)
+        x = "x = ${root1.toInt()} and x = ${root2.toInt()}"
     }
         print ("The roots of the equation are: $x")
     }
