@@ -18,7 +18,7 @@ fun main() {
     }
     else {
         //x = root1 and root2
-        x = "x = %.2f and  x = %.2f".format(root1, root2)
+        x = "x = %.2f and x = %.2f".format(root1, root2)
     }
         print ("The roots of the equation are: $x")
     }
